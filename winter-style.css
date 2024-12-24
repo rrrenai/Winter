@@ -1,0 +1,53 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    cursor: url("./Media/santas_hand.cur"), default;
+    color: white;
+    text-shadow: 2px 2px 5px gray;
+}
+
+body {
+    background-image: radial-gradient(rgb(179, 211, 250), rgb(164, 205, 255),rgb(75, 156, 255)); /*rgb(164, 205, 255)*/
+
+}
+
+@font-face {
+    font-family: 'Christmas';
+    src: url('./Media/last_christmas/LastChristmas_PERSONAL_USE_ONLY.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Christmas";
+    font-size: 60pt;
+}
+
+p {
+    font-style: italic;
+    font-size: 12pt;
+}
+footer > div {margin-top: 10px;}
+div > p {
+    margin: 0;
+    font-size: 10pt;
+    display: inline;
+    padding: 5px;
+}
+
+.sideside {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center
+}
+
+.bigpoppa {
+    width: 30vw;
+}
+
+img {width: 150px;}
+
+.show {display: inline-block;}
+.hide {display: none;}
+.visible {visibility: visible;}
+.hidden {visibility: hidden;}
